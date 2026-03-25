@@ -38,12 +38,14 @@ cloudflare-devmode-cache-clear.php
 2. Configure the script
 
 Edit the config section:
-
+<pre>
 $watchDir   = __DIR__;
 $maxAge     = 300;
 
 $cloudflareApiToken = 'YOUR_API_TOKEN';
 $cloudflareZoneId   = 'YOUR_ZONE_ID';
+</pre>
+
 3. Set directory to monitor
 
 Example:
