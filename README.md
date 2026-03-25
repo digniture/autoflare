@@ -29,6 +29,7 @@ cURL enabled
 Cron access
 Cloudflare API Token
 Cloudflare Zone ID
+
 🔧 Installation
 1. Upload the script
 
@@ -50,12 +51,14 @@ $cloudflareZoneId   = 'YOUR_ZONE_ID';
 
 Example:
 
-$watchDir = '/home/user/public_html';
+<pre>$watchDir = '/home/user/public_html';</pre>
+
 4. Add cron job
-
 Run every minute:
-
+<pre>
 * * * * * /usr/bin/php /full/path/to/cloudflare-devmode-cache-clear.php >/dev/null 2>&1
+</pre>
+
 5. Done ✅
 
 The script will now:
