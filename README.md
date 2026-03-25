@@ -6,17 +6,23 @@ Built for developers who want instant updates, zero manual cache clearing, and a
 
 ✨ Features
 ⚡ Auto Cache Purge
-Automatically clears Cloudflare cache when recent file changes are detected
+Automatically clears Cloudflare cache when recent file changes are detected.
+
 🛠 Smart Development Mode
-Enables Cloudflare Development Mode to bypass caching during active development
+Enables Cloudflare Development Mode to bypass caching during active development.
+
 📂 Recursive File Monitoring
-Scans all directories and subdirectories using recursive glob
+Scans all directories and subdirectories using recursive glob.
+
 🧠 Smart Trigger Logic
-Prevents duplicate API calls using a local state file
+Prevents duplicate API calls using a local state file.
+
 ⏱ Cron Ready
-Designed to run every minute with minimal server load
+Designed to run every minute with minimal server load.
+
 🔒 Lightweight & Dependency-Free
 Pure PHP (no frameworks required)
+
 📦 Use Cases
 Local → live deployments
 Git / FTP / rsync updates
